@@ -119,8 +119,6 @@ nav.scrolled{background:rgba(255,255,255,.92);backdrop-filter:blur(10px);box-sha
 .status{display:inline-block;font-family:'Karla',sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:5px 12px;border-radius:999px;margin-left:12px;vertical-align:middle}
 .status.training,.status.indev{background:var(--accent-soft);color:var(--accent-hover)}
 .status.completed{background:var(--sage-soft);color:var(--sage)}
-.vol-grid{display:grid;gap:22px;margin-top:32px}
-@media(min-width:800px){.vol-grid{grid-template-columns:1fr 1fr}}
 .vol-card{padding:28px}
 .vol-head{display:flex;gap:16px}
 .vol-card h4{font-size:1.15rem}
@@ -373,29 +371,6 @@ footer p{font-family:'Fraunces',serif;font-style:italic}
       </li>
     </ol>
 
-    <h3 class="reveal" style="margin-top:56px;font-size:1.5rem">Volunteering</h3>
-    <div class="vol-grid">
-      <div class="card vol-card reveal">
-        <div class="vol-head"><span class="icon-tile"><svg class="icon" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></span>
-        <div><h4>Gardens Rugby and Football Club</h4><p class="tl-role">Administrator / Manager</p><p class="tl-period">2025 — 2026</p></div></div>
-        <ul><li>Registration for the team and general admin work.</li><li>Some of the finances and sales.</li><li>Manage coaches batch of keys.</li><li>Time management — into cloaks, warmup, back in.</li><li>Comms of substitutions to the admin table (much stricter for league).</li><li>Jersey fees, and jerseys into cloaks — confirming everything is there before players finish warmup.</li></ul>
-      </div>
-      <div class="card vol-card reveal" style="--d:70ms">
-        <div class="vol-head"><span class="icon-tile"><svg class="icon" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></span>
-        <div><h4>ABSA Cape Epic</h4><p class="tl-role">Recovery Team</p><p class="tl-period">March 2025</p></div></div>
-        <ul><li>Assisting the physiotherapist.</li><li>Giving athletes ice packs and cooling gel.</li><li>Helping athletes, especially first-timers.</li></ul>
-      </div>
-      <div class="card vol-card reveal">
-        <div class="vol-head"><span class="icon-tile"><svg class="icon" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></span>
-        <div><h4>Cape Peninsula University of Technology</h4><p class="tl-role">First Year Orientator / Tutor</p><p class="tl-period">2025</p></div></div>
-        <ul><li>Welcoming the first years and showing them the campus.</li><li>Tutoring them for six months to a year on their modules.</li><li>Helping the first years with what they need.</li></ul>
-      </div>
-      <div class="card vol-card reveal" style="--d:70ms">
-        <div class="vol-head"><span class="icon-tile"><svg class="icon" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></span>
-        <div><h4>Iron Man</h4><p class="tl-role">Event Volunteer</p><p class="tl-period">2019</p></div></div>
-        <ul><li>Helping athletes with directions.</li><li>Handing out tickets to athletes.</li><li>Helping athletes get to the paramedics.</li><li>Helping out with packing up equipment.</li></ul>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -436,6 +411,18 @@ footer p{font-family:'Fraunces',serif;font-style:italic}
         <div class="proj-actions">
           <button class="btn btn-primary" data-modal="modal-maintainx">View Case Study</button>
           <a class="btn btn-secondary" href="https://maintainx-ai-ops.lovable.app/" target="_blank" rel="noreferrer">Live App ↗</a>
+        </div>
+      </article>
+      <article class="card proj-card reveal" style="--d:160ms">
+        <div class="proj-top">
+          <span class="icon-tile" style="width:52px;height:52px"><svg class="icon" width="28" height="28" viewBox="0 0 40 40"><circle cx="20" cy="14" r="5"/><path d="M12 33c0-5 4-9 8-9s8 4 8 9"/><path d="M20 3v4M20 33v4M6 20l4-1M30 21l4 1"/></svg></span>
+          <span class="status indev">In Development</span>
+        </div>
+        <h3>ApexAthlete OS</h3>
+        <p>A sports performance and clinical intelligence platform giving athletes and support staff a unified view of readiness and recovery.</p>
+        <div class="tags"><span class="badge">AI</span><span class="badge">Sports Tech</span><span class="badge">Clinical Data</span></div>
+        <div class="proj-actions">
+          <a class="btn btn-secondary" href="https://apexathlete-vtmsmckb.manus.space/" target="_blank" rel="noreferrer">Live App ↗</a>
         </div>
       </article>
     </div>
@@ -522,26 +509,9 @@ footer p{font-family:'Fraunces',serif;font-style:italic}
   </div>
 </section>
 
-<section id="resume" class="alt">
-  <div class="shell">
-    <p class="eyebrow reveal">06 — On Paper</p>
-    <h2 class="section-title reveal">Resume</h2>
-    <div class="title-bar reveal"></div>
-    <div class="card resume-card reveal">
-      <span class="icon-tile"><svg class="icon" width="26" height="26" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
-      <h3>My Resume</h3>
-      <p>A complete overview of my training, experience, projects and skills — embedded right in this page, ready to view or download.</p>
-      <div class="hero-ctas">
-        <a class="btn btn-primary" href="#" data-cv download="Khanya-Gusha-CV.pdf">Download CV</a>
-        <a class="btn btn-secondary" href="#" data-cv target="_blank">View CV</a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section id="contact">
   <div class="shell">
-    <p class="eyebrow reveal">07 — Say Hello</p>
+    <p class="eyebrow reveal">06 — Say Hello</p>
     <h2 class="section-title reveal">Get in Touch</h2>
     <div class="title-bar reveal"></div>
     <p class="section-lead reveal">Hiring, collaborating, or just want to talk tech? Reach out — professional enquiries welcome.</p>
@@ -588,6 +558,10 @@ footer p{font-family:'Fraunces',serif;font-style:italic}
       <li><a href="https://github.com/KhanyaGusha" target="_blank" rel="noreferrer" aria-label="GitHub"><svg class="icon" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a></li>
       <li><a href="https://www.linkedin.com/in/khanya-gusha-00a6223b1/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><svg class="icon" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></li>
     </ul>
+    <div class="hero-ctas" style="justify-content:center;margin-bottom:20px">
+      <a class="btn btn-primary" href="#" data-cv download="Khanya-Gusha-CV.pdf">Download CV</a>
+      <a class="btn btn-secondary" href="#" data-cv target="_blank">View CV</a>
+    </div>
     <p style="margin-bottom:14px"><button data-modal="modal-references" style="background:none;border:none;cursor:pointer;font:inherit;font-family:'Karla',sans-serif;font-weight:700;font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-hover);text-decoration:underline;text-underline-offset:4px">References available here</button></p>
     <p>© <span id="year"></span> K Gusha. Built with care in Cape Town.</p>
   </div>
